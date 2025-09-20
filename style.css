@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Sans";
+  src: url("./google-sans-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sans";
+  src: url("./google-sans-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sans";
+  src: url("./google-sans-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sans", sans-serif;
+}
+
+:root {
+  --backgroundColor: #060606;
+  --primaryColor: white;
+  --secondaryColor: #9aa0a7;
+  --grayColor: #2c2c2c;
+  --navbackColor: #191919;
+  --hoverColorLight: #2c2c2cc9;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  color: var(--primaryColor);
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.logo-navbartext {
+  display: flex;
+  column-gap: 2.5rem;
+}
+
+.logo-continer {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.logo {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.arrow-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--grayColor);
+  border-radius: 0.45rem;
+  padding: 0.005rem 0.15rem;
+}
+
+.arrow-icon {
+  width: 0.85rem;
+  cursor: pointer;
+}
+
+/* Navigation text Section */
+.navbartext-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbartext {
+  width: fit-content;
+  padding: 0.65rem 1.25rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--secondaryColor);
+}
+
+.navbartext:hover {
+  border-radius: 1rem;
+  background-color: var(--navbackColor);
+}
+
+.button-navlink-container {
+  width: fit-content;
+  display: flex;
+  column-gap: 0.45rem;
+}
+
+.button-navlink {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border-radius: 1.5rem;
+  padding: 0.65rem 1.2rem;
+  color: var(--secondaryColor);
+  background-color: var(--navbackColor);
+}
+
+.button-navlink p {
+  white-space: nowrap;
+}
+
+.button-navlink:hover {
+  background-color: var(--hoverColorLight);
+}
+
+.searchIcon {
+  width: 1.25rem;
+}
+
+/* Main Container */
+.main {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+  height: 50rem;
+  /* background-color: green; */
+}
+
+.main-section-one {
+  width: calc(100% / 2);
+  margin-left: 6rem;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.main-section-two {
+  width: calc(100% / 2);
+  height: 100%;
+  margin-right: 6rem;
+  overflow: scroll;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main-section-two::-webkit-scrollbar {
+  display: none;
+}
+
+.main-section-one-title {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 600;
+}
+
+.main-section-one-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1rem;
+  font-weight: 300;
+  color: var(--secondaryColor);
+}
+
+.tryGemini {
+  width: fit-content;
+  padding: 0.5rem 0.85rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  border: 1px solid var(--grayColor);
+}
+
+.tryGemini:hover {
+  background-color: var(--navbackColor);
+}
+
+.learnMoreArrow-container {
+  display: flex;
+  align-items: end;
+  column-gap: 0.5rem;
+}
+
+.learnMoreArrow-container img {
+  width: 1rem;
+}
+
+.main-section-one-photoBox {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background-image: url(./unnamed.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-section-two-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--navbackColor);
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.cardAdj {
+  width: 90%;
+  height: fit-content;
+  line-height: 2rem;
+  font-size: 2rem;
+  /* background-color: red; */
+}
+
+.main-cardImageBox img {
+  max-width: 12rem;
+  max-height: 10rem;
+  border-radius: 1rem;
+}
