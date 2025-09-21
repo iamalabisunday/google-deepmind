@@ -501,3 +501,14 @@
 .right-arrow {
   background-color: var(--grayColor);
 }
+
+/* Research Section */
+.research-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.5rem;
+  background-color: black;
+}
