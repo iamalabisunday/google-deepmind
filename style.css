@@ -1,29 +1,99 @@
+/* canadian-aboriginal */
 @font-face {
-  font-family: "Sans";
-  src: url("./google-sans-regular.woff2") format("woff2");
-  font-weight: 400;
+  font-family: "Google Sans Flex";
   font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6pGn9Q3I8ipFY.woff2)
+    format("woff2");
 }
-
+/* cherokee */
 @font-face {
-  font-family: "Sans";
-  src: url("./google-sans-medium.woff2") format("woff2");
-  font-weight: 500;
+  font-family: "Google Sans Flex";
   font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6VGn9Q3I8ipFY.woff2)
+    format("woff2");
 }
-
+/* math */
 @font-face {
-  font-family: "Sans";
-  src: url("./google-sans-bold.woff2") format("woff2");
-  font-weight: 700;
+  font-family: "Google Sans Flex";
   font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W76Gn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* nushu */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W75Gn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* symbols */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W7oGn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* syriac */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W71Gn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* tifinagh */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6mGn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* vietnamese */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6JGn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* latin-ext */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6IGn9Q3I8ipFY.woff2)
+    format("woff2");
+}
+/* latin */
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  src: url(https://fonts.gstatic.com/s/googlesansflex/v12/t5svIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwGpVd4AZzz0v6lJ4qFXNZhGjLvDSkV4W6GGn9Q3I8i.woff2)
+    format("woff2");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sans", sans-serif;
+  font-family: "Google Sans Flex";
 }
 
 :root {
@@ -142,25 +212,24 @@
 
 /* Main Container */
 .main {
-  margin-top: 6rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   column-gap: 2rem;
   height: 50rem;
-  /* background-color: green; */
 }
 
 .main-section-one {
+  padding-top: 6rem;
   width: calc(100% / 2);
   margin-left: 6rem;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
 }
 
 .main-section-two {
+  padding-top: 4.5rem;
   width: calc(100% / 2);
   height: 100%;
   margin-right: 6rem;
@@ -239,7 +308,6 @@
   height: fit-content;
   line-height: 2rem;
   font-size: 2rem;
-  /* background-color: red; */
 }
 
 .main-cardImageBox img {
