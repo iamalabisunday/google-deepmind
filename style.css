@@ -318,7 +318,8 @@
   font-size: 2rem;
 }
 
-.main-cardImageBox img {
+.main-cardImageBox img,
+.main-cardImageBox video {
   max-width: 12rem;
   max-height: 10rem;
   border-radius: 1rem;
