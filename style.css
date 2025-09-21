@@ -113,7 +113,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  min-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -121,10 +121,13 @@
 }
 
 .header {
+  width: 100%;
+  padding: 0 4rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .logo-navbartext {
@@ -213,6 +216,12 @@
 /* Main Container */
 .main {
   width: 100%;
+  height: auto;
+}
+
+.main-section {
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   column-gap: 2rem;
@@ -304,6 +313,10 @@
   justify-content: space-between;
   padding: 3rem 0;
   border-bottom: 1px solid var(--navbackColor);
+}
+
+.main-section-two-card:last-child {
+  border-bottom: none;
 }
 
 .main-card {
