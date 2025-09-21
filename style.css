@@ -354,6 +354,8 @@
   padding: 3.5rem 6rem;
   display: flex;
   flex-direction: column;
+  row-gap: 3.5rem;
+  background-color: black;
 }
 
 .build-header {
@@ -386,10 +388,9 @@
 }
 
 .build-body {
-  /* background-color: red; */
   height: 100%;
   display: flex;
-  column-gap: 5rem; /*///////////////////////////////*/
+  column-gap: 5rem;
 }
 
 .build-body-container {
@@ -401,7 +402,6 @@
   align-items: flex-start;
   border-top: 1px solid var(--grayColor);
   padding-top: 2.5rem;
-  margin-top: 3.5rem;
   color: var(--secondaryColor);
 }
 
@@ -449,7 +449,7 @@
 }
 
 .build-body-title p {
-  width: 17rem; /*jknlvldlkvkldlvlkldflkv*/
+  width: 17rem;
   font-size: 1.25rem;
   font-size: 300;
 }
@@ -473,4 +473,31 @@
 .App-AI-section img {
   width: 1rem;
   height: fit-content;
+}
+
+/* Switch section */
+.switch-container {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  align-content: center;
+  line-height: 0.1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2rem;
+  background-color: var(--navbackColor);
+}
+
+.right-arrow,
+.left-arrow {
+  width: 2.65rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right-arrow {
+  background-color: var(--grayColor);
 }
