@@ -509,6 +509,23 @@
   padding: 0 6rem;
   display: flex;
   flex-direction: column;
-  row-gap: 3.5rem;
-  background-color: black;
+  row-gap: 1.5rem;
+}
+
+.research-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+
+.cardAdjustment:last-child {
+  border-bottom: 1px solid var(--navbackColor);
+}
+
+.cardResearch {
+  width: 90%;
+  height: fit-content;
+  line-height: 1.75rem;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
