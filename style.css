@@ -284,6 +284,7 @@
 .main-section-one-videoBox {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .main-section-one-videoBox video {
