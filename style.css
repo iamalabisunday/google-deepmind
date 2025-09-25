@@ -131,6 +131,10 @@
   margin-top: 1rem;
 }
 
+.header .menu {
+  display: none;
+}
+
 .logo-navbartext {
   display: flex;
   column-gap: 2.5rem;
@@ -699,6 +703,10 @@
     width: 100%;
     padding: 0 1.65rem;
     flex-direction: column;
+  }
+
+  .header .menu {
+    display: flex;
   }
 
   .header {
