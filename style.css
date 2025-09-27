@@ -628,6 +628,17 @@
   font-size: 1.25rem;
 }
 
+.footer-icon-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.footer-icon {
+  width: 1.35rem;
+  filter: brightness(0) invert(1);
+}
+
 .footer-science {
   display: flex;
   flex-direction: column;
